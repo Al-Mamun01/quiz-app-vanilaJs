@@ -89,7 +89,7 @@ const quizEnd = () => {
 
 document.getElementsByClassName("container")[0].innerHTML = `
     <div class="col">
-        <h3 class="w-100"> Hii, you've scored ${correct} / ${total} </h3>
+        <h3 class="w-100"> Dear Student, you've scored ${correct} / ${total} </h3>
     </div>
 `
 }
